@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Habit</string>
+
+    <string name="edit_title">Title</string>
+    <string name="edit_title_hint">What do you need to do?</string>
+    <string name="edit_title_multiple_hint">List Name</string>
+    <string name="sublist_item_hint">New Item</string>
+    <string name="edit_details">Details</string>
+    <string name="edit_details_hint">Details...</string>
+
+    <string name="edit_repeat_label">Repeat</string>
+
+    <string name="days_left">Days Left</string>
+
+    <string name="edit_button_add">Add</string>
+    <string name="edit_button_save">Save</string>
+    <string name="edit_button_cancel">Cancel</string>
+    <string name="edit_button_delete">Delete</string>
+
+    <string name="empty_list_prompt">No Items</string>
+
+    <string name="completed">Completed </string>
+    <string name="forward_slash"> / </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

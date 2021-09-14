@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ActionsBarFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/actions_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/actions_bar_bg"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/actions_bar_toggle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@null"
+            android:rotation="180"
+            android:tint="@color/donsoWhite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/action_bar_affirm"
+            app:layout_constraintStart_toEndOf="@+id/action_bar_reject"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/circle_unchecked" />
+
+        <ImageButton
+            android:id="@+id/action_bar_reject"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_circle_bg"
+            android:fontFamily="@font/comfortaa_bold"
+            android:src="@drawable/circle_unchecked"
+            android:text="@string/edit_button_cancel"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/action_bar_affirm"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_circle_bg"
+            android:fontFamily="@font/comfortaa_bold"
+            android:src="@drawable/circle_unchecked"
+            android:text="@string/edit_button_add"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

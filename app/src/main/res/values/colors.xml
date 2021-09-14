@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000500</color>
+    <color name="colorAccent">#3aafa9</color>
+    <color name="colorAccentGlass">#926062</color>
+    <color name="donsoWhite">#FFFFFF</color>
+    <color name="donsoGrey">#808080</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="DonsoDarkPrimary">#202430</color>
+    <color name="DonsoDarkSecondary">#242a38</color>
+    <color name="DonsoDarkAccent">#4e596f</color>
+    <color name="DonsoMedium">#383e4c</color>
+    <color name="DosoMediumSecondary">#586379</color>
+    <color name="DonsoRedPrimary">#842833</color>
+    <color name="DonsoLightText">#768197</color>
+    <color name="DonsoTransparentBg">#4e596f99</color>
+
+    <color name="glassOpaque">#22ffffff</color>
+    <color name="glassClear">#08ffffff</color>
+    <color name="glassCloudy">#99202430</color>
+    <color name="glassShade">#ee000000</color>
+
+    <color name="PrimaryRed">#f66062</color>
+    <color name="PrimaryBlue">#60adf6</color>
+    <color name="PrimaryGreen">#62f660</color>
+    <color name="PrimaryPurple">#6062f6</color>
+
+    <color name="GradientLight">#2a3950</color>
+    <color name="GradientDark">#000000</color>
+
+    <color name="DarkBackground">#02111e</color>
+
+</resources>

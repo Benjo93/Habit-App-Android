@@ -1,0 +1,2 @@
+rootProject.name='Habit App'
+include ':app'

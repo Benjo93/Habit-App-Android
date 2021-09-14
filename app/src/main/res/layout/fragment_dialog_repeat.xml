@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/repeat_daily"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_input_bg"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Every Day" />
+
+        <Button
+            android:id="@+id/repeat_weekly"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_input_bg"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Every Week" />
+
+        <Button
+            android:id="@+id/repeat_monthly"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_input_bg"
+            android:fontFamily="@font/comfortaa_bold"
+            tools:text="Every Month" />
+
+    </LinearLayout>
+
+</FrameLayout>
