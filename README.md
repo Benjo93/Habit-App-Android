@@ -9,3 +9,7 @@ An app that helps people build better habits by organizing tasks into a clean an
 ## Viewing Items by Category
 
 ![Category Screen](/Habit-App-Home-Tab.png)
+
+## Create a new Item
+
+![New Item Screen](/Habit-App-New-Item.png)
