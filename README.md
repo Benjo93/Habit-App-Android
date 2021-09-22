@@ -1,7 +1,8 @@
 # Habit App for Android
 
-This is a to-do app that helps organize tasks in a clean and user friendly app interface. 
+An app that helps people build better habits by organizing tasks into a clean and user friendly app interface. 
 
 ## Home Screen
 
 ![Home Screen](/Habit-App-Home.png)
+
