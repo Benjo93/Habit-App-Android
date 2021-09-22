@@ -6,3 +6,6 @@ An app that helps people build better habits by organizing tasks into a clean an
 
 ![Home Screen](/Habit-App-Home.png)
 
+## Habit Category Page
+
+![Category Screen](/Habit-App-Home-Tab.png)
